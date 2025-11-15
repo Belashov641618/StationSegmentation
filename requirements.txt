@@ -1,5 +1,9 @@
 --extra-index-url https://download.pytorch.org/whl/cu128
 belashovplot
 jupyterlab==4.4.4
-torch
-torchvision
+torch~=2.9.1+cu128
+torchvision~=0.24.1+cu128
+matplotlib
+tqdm
+ipywidgets
+pillow
